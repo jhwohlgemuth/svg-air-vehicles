@@ -32,7 +32,7 @@
     width: 40px;
     height: 40px;
     position: absolute;
-    top: 200px;
+    bottom: 200px;
     left: 50%;
     margin: -20px;
     font-size: 100px;
