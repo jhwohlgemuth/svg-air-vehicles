@@ -1,41 +1,29 @@
-/**
- * Move in a circle without wrapper elements
- * Idea by Aryeh Gregor, simplified by Lea Verou
- */
-
-@keyframes rot {
+@keyframes rotate {
     from {
         transform: rotate(0deg)
-        translate(-50px)
-        rotate(0deg);
+                   translate(-80px)
+                   rotate(0deg);
     }
     to {
         transform: rotate(360deg)
-        translate(-50px)
-        rotate(-360deg);
+                   translate(-80px)
+                   rotate(-360deg);
     }
 }
-@-webkit-keyframes rot {
+@-webkit-keyframes rotate {
      from {
          -webkit-transform: rotate(0deg)
-         translate(-50px)
-         rotate(0deg);
+                            translate(-80px)
+                            rotate(0deg);
      }
      to {
          -webkit-transform: rotate(360deg)
-         translate(-50px)
-         rotate(-360deg);
+                            translate(-80px)
+                            rotate(-360deg);
      }
  }
 
-.smile {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    bottom: 200px;
-    left: 50%;
-    margin: -20px;
-    font-size: 100px;
-    -webkit-animation: rot 3s infinite linear;
-    animation: rot 3s infinite linear;
+.rotate {
+    -webkit-animation: rotate 3s infinite linear;
+            animation: rotate 3s infinite linear;
 }
