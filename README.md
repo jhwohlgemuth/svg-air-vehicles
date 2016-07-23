@@ -7,4 +7,4 @@
 - RC-135
 - U-2
 
-##[Demo](http://jasonwohlgemuth.com/air-vehicles/ "See the SVGs in Action!")
+##[Demo](https://jhwohlgemuth.github.io/svg-air-vehicles/ "See the SVGs in Action!")
